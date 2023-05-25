@@ -26,10 +26,11 @@ const Navbar = () => {
   }, []);
 
   return (
+    <div className="navbar" style={{zIndex: 1}}>
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
+      } w-full flex items-center py-5 relative top-0 z-999 ${
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
@@ -95,6 +96,8 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+    </div>
+
   );
 };
 
