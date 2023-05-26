@@ -122,35 +122,47 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
-          <div className="flex justify-center space-x-10 pb-4">
-  <a
-    href="https://github.com/AMunir8"
-    target="_blank"
-    className="text-4xl text-gray-500 hover:text-gray-700 transition-colors duration-300"
-  >
-    <FaGithub />
-  </a>
-  <a
-    href="https://www.linkedin.com/in/abdullah-munir/"
-    target="_blank"
-    className="text-4xl text-blue-500 hover:text-blue-700 transition-colors duration-300"
-  >
-    <FaLinkedin />
-  </a>
-  <a
-    href="https://www.instagram.com/axmunir/"
-    target="_blank"
-    className="text-4xl text-pink-500 hover:text-pink-700 transition-colors duration-300"
-  >
-    <FaInstagram />
-  </a>
-  <a
-    href="https://drive.google.com/file/d/1kjCbVDEB6aDNy5N0rwJWlgCLORA3ZCy2/view?usp=sharing"
-    target="_blank"
-    className="text-4xl text-orange-400 hover:text-orange-600 transition-colors duration-300"
-  >
-    <FaRegFileAlt />
-  </a>
+          <div className="flex flex-wrap justify-center space-x-10 pb-4">
+  <div className="flex flex-col items-center">
+    <a
+      href="https://github.com/AMunir8"
+      target="_blank"
+      className="text-4xl text-gray-500 hover:text-gray-700 transition-colors duration-300"
+    >
+      <FaGithub />
+    </a>
+    
+  </div>
+  <div className="flex flex-col items-center">
+    <a
+      href="https://www.linkedin.com/in/abdullah-munir/"
+      target="_blank"
+      className="text-4xl text-blue-500 hover:text-blue-700 transition-colors duration-300"
+    >
+      <FaLinkedin />
+    </a>
+ 
+  </div>
+  <div className="flex flex-col items-center">
+    <a
+      href="https://www.instagram.com/axmunir/"
+      target="_blank"
+      className="text-4xl text-pink-500 hover:text-pink-700 transition-colors duration-300"
+    >
+      <FaInstagram />
+    </a>
+   
+  </div>
+  <div className="flex flex-col items-center">
+    <a
+      href="https://drive.google.com/file/d/1kjCbVDEB6aDNy5N0rwJWlgCLORA3ZCy2/view?usp=sharing"
+      target="_blank"
+      className="text-4xl text-orange-400 hover:text-orange-600 transition-colors duration-300"
+    >
+      <FaRegFileAlt />
+    </a>
+  
+  </div>
 </div>
         </form>
       </motion.div>
