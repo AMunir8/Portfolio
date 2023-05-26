@@ -18,6 +18,7 @@ const ExperienceCard = ({ experience }) => {
       contentStyle={{
         background: "#1d1836",
         color: "#fff",
+        zIndex: 3,
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
       date={experience.date}

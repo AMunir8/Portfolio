@@ -4,7 +4,6 @@ import { motion, useAnimation } from "framer-motion";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from '../hoc'
-import { coming_soon } from '../assets';
 
 const Works = () => {
   const [progress, setProgress] = useState(0);
