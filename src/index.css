@@ -136,18 +136,6 @@
   font-size: 40px;
 }
 
-.content-below-navbar {
-  margin-top: 72px; 
-}
-
-.content-below-navbar.scrolled {
-  margin-top: 0;
-}
-
-.content {
-  margin-top: 70px; 
-}
-
 @keyframes mulShdSpin {
   0%,
   100% {

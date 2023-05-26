@@ -26,15 +26,14 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="navbar" style={{zIndex: 1}}>
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 relative top-0 z-999 ${
+      } w-full flex items-center py-5 fixed top-0 z-999 ${
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
-      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+      <div className='w-full flex justify-between items-center max-w-7xl mx-auto z-999'>
         <Link
           to='/'
           className='flex items-center gap-2'
@@ -44,8 +43,8 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[20px] font-bold cursor-pointer flex '>
-            Abdullah Munir 
+          <p className='text-white text-[18px] font-bold cursor-pointer flex z-999'>
+            Abdullah Munir &nbsp;
           </p>
         </Link>
 
@@ -96,8 +95,6 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-    </div>
-
   );
 };
 

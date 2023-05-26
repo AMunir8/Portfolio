@@ -1,7 +1,7 @@
 import {
     mobile,
     backend,
-    creator,
+    frontend,
     web,
     javascript,
     typescript,
@@ -54,8 +54,8 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Frontend Developer",
+      icon: frontend,
     },
   ];
   
